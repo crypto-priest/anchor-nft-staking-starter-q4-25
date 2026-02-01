@@ -249,6 +249,7 @@ describe("anchor-nft-staking-q4-25", () => {
           user: user.publicKey,
           asset: asset.publicKey,
           collection: collection.publicKey,
+          collectionInfo: collectionInfoPda,
           stakeAccount: stakeAccountPda,
           config: configPda,
           userAccount: userAccountPda,
